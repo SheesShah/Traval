@@ -1,0 +1,47 @@
+.main-ul-style
+{
+list-style: none;
+gap: 40px;
+}
+.banner-bg-main-pic
+{
+    width: 100%;
+    height: 480px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.3)), 
+    url('./assets/banner_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-header-set
+{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 480px) {
+    .banner-bg-main-pic
+    {
+        height: 700px !important;
+    }
+    .mian-header-responsive
+    {
+        width: 100%;
+    }
+    .menu-card
+    {
+        margin-top: 22px;
+        z-index: 999;
+    }
+    .select-card
+    {
+        margin-top: 85px;
+    }
+    .about-section
+    {
+        margin-top: 100px;
+    }
+    .contact-section
+    {
+        margin-top: 50px; 
+    }
+}
